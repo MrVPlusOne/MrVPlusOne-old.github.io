@@ -1,9 +1,28 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    color: #777;
+}
+
+
 .icon-middle{
     width: 90px;
     min-width: 90px;
     height: 90px;
     min-height: 90px;
     margin: 15px;
+}
+
+.icon-small{
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    margin: 6px;
+    margin-top:2px;
+    margin-bottom: 2px;
 }
 
 .middle-size-tab{
@@ -18,9 +37,9 @@
 }
 
 .gallery-item {
-    padding: 0.9em 1em;
+    padding: 0.9em 0.5em;
     border-bottom: 1px solid #ddd;
-    border-left: 6px solid transparent;
+    border-left: 2px solid transparent;
 }
 
 
@@ -47,4 +66,104 @@
     padding-right: 50px;
 }
 
+.side-menu{
+    background: #191818;
+    height: 100%;
+    overflow-y: auto;
+    width: 10em;
+    min-width: 10em;
+    max-width: 10em;
+}
 
+.side-menu-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu-item{
+    color: #c2c2c2;
+    padding: 10px;
+}
+
+.side-menu-item:hover{
+    background: #464545;
+}
+
+.side-menu-item-selected{
+    background: #1f8dd6;
+    color: white;
+}
+
+.side-menu-heading{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px 20px;
+    border-bottom: solid gray 1px;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+.content-right{
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+#root{
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+.header {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    padding: 2.5em 2em 0;
+    border-bottom: 1px solid #eee;
+}
+.header h1 {
+    margin: 0.2em 0;
+    font-size: 3em;
+    font-weight: 300;
+}
+.header h2 {
+    font-weight: 300;
+    color: #ccc;
+    padding: 0;
+    margin-top: 0;
+}
+
+.content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: #888;
+}
+
+.clickable-text{
+    cursor: pointer;
+    color: #179377;
+}
+
+a{
+    color: #4078c0;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
