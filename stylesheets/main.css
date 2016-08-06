@@ -58,12 +58,18 @@ body {
 }
 
 .full-height{
-    height: 100%;
+    height: 100vh;
 }
 
 .gallery-content-upper, .gallery-content-lower{
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.menu-button{
+    background: #191818;
+    color: white;
+    padding: 5px 10px;
 }
 
 .side-menu{
@@ -109,7 +115,7 @@ body {
 }
 
 .content-right{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     overflow-y: auto;
 }
