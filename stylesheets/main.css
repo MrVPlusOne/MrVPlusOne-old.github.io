@@ -6,6 +6,23 @@ body {
     color: #777;
 }
 
+.certificate {
+    padding: 16px;
+    border: solid gray 1px;
+    margin: 30px;
+    margin-bottom: 0;
+    display: inline-flex;
+    width: 600px;
+    max-width: 75vw;
+}
+
+.certificate-name{
+    font-size: 24px;
+}
+
+.certificate-institute{
+    font-size: 14px;
+}
 
 .icon-middle{
     width: 90px;
