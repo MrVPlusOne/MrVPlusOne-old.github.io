@@ -166,7 +166,7 @@ body {
 }
 .header h2 {
     font-weight: 300;
-    color: #ccc;
+    color: #999;
     padding: 0;
     margin-top: 0;
 }
@@ -174,7 +174,7 @@ body {
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
-    color: #888;
+    color: #666;
 }
 
 .clickable-text{
