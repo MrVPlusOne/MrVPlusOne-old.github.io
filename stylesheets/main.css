@@ -3,7 +3,7 @@ html, body{
 }
 
 body {
-    color: #777;
+    color: #555;
 }
 
 .certificate {
@@ -189,4 +189,22 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.example {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.example p{
+    max-width: 600px;
+}
+
+.example img{
+    border: solid black 1px;
+}
+
+.example video{
+    border: solid black 1px;
 }
